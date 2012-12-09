@@ -32,6 +32,15 @@
   });
   });
   </script>-->
+<script type="text/javascript">
+  (function() {
+    var config = {
+      kitId: 'tyw2bkz',
+      scriptTimeout: 3000
+    };
+    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -52,13 +61,18 @@
   <!-- Red border -->
   <div id="left"></div><div id="right"></div><div id="top"></div><div id="bottom"></div>
   <!-- End Red Border -->
-
+  <section  itemscope itemtype="http://schema.org/Person">
+      <a href="mailto:Gary@Llamido.com"  itemprop="email">
+        <header id="header">
+            <h1 itemprop="email">Gary@Llamido.com</h1>
+        </header>
+      </a>
 <%= yield %>
 
       <footer>
       Copyright &copy; 2011
       <span itemprop="name" rel="author">Gary Llamido</span>
       </footer>
-
+  </section>
 </body>
 </html>
