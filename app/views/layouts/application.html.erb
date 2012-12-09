@@ -1,0 +1,41 @@
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+ <script type="text/javascript">
+  CFInstall.check();
+ </script>
+ <![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gary Llamido - <%= yield(:title)%></title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+        <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+      <meta name="description" content="Mixed-media sculptures by a San Francisco artist Gary Llamido." />
+      <meta name="keywords" content="Gary Llamido, Llamido, Mixed-media, Painter, Sculptor, Otis Parsons, BFA, sculptures, encaustic" />
+      <meta name="author" content="Gary Llamido" />
+      <meta name="robots" content="index, follow" />
+      <meta name="copyright" content="Gary Llamido 2011" />
+  <!--
+  <link rel="stylesheet" href="/css/pirobox-1.1.css" />
+   <script type="text/javascript" src="js/pirobox_extended_feb_2011.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $.piroBox_ext({
+    piro_speed :300,
+    bg_alpha : 0.5,
+    piro_scroll : true,
+    piro_drag :false,
+    piro_nav_pos: 'top'
+  });
+  });
+  </script>-->
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
