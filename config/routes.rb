@@ -1,12 +1,9 @@
 GaryLlamidojava::Application.routes.draw do
+  get "art/series1"
+  get "art/series2"
+  get "art/series3"
+
   get "home/index"
-
-  get "home/series1"
-
-  get "home/series2"
-
-  get "home/series3"
-
   get "home/about"
 
   root :to => 'home#index'

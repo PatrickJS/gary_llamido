@@ -36,7 +36,7 @@
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-31637044-1']);
-  _gaq.push(['_setDomainName', 'llamido.com']);
+  _gaq.push(['_setDomainName', 'gary.llamido.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -47,10 +47,18 @@
 
 </script>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+  <!-- Red border -->
+  <div id="left"></div><div id="right"></div><div id="top"></div><div id="bottom"></div>
+  <!-- End Red Border -->
 
 <%= yield %>
 
+      <footer>
+      Copyright &copy; 2011
+      <span itemprop="name" rel="author">Gary Llamido</span>
+      </footer>
 
 </body>
 </html>
