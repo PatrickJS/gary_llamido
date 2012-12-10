@@ -4,6 +4,7 @@ gem 'rails', '3.2.9'
 gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
