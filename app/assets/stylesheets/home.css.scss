@@ -52,8 +52,7 @@ html {
     overflow: auto;
 }
 body {
-  background: #090909 url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/newbg.png) repeat fixed center center;
-  // font: small 'FuturaMedium', Arial, sans-serif;
+  background: #090909 url('https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/black-Linen_%402X.png') repeat fixed center center;
   color: #FFF;
   margin: 0;
   padding: 0;
@@ -95,16 +94,6 @@ body {
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(255,0,0,0.4);
 }
-/*
-@font-face{
-  font-family: 'FuturaMedium', Helvetica, Arial,  sans-serif;;
-  src: url('https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/font/futura_medium-webfont.eot');
-  src: url('https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/font/futura_medium-webfont.eot?#iefix') format('embedded-opentype'),
-       url('https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/font/futura_medium-webfont.woff') format('woff'),
-       url('https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/font/futura_medium-webfont.ttf') format('truetype'),
-       url('https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/font/futura_medium-webfont.svg#webfont') format('svg');
-}
-*/
 /* Borders */
 #top, #bottom, #left, #right {
     background: #ff0000;
