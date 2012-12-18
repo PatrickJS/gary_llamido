@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 gem 'rails', '3.2.9'
 gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '3.0.1'
-gem 'turbolinks'
+# gem 'turbolinks'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
