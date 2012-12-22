@@ -1,4 +1,14 @@
 GaryLlamidojava::Application.routes.draw do
+  get "art/series3/belly" => "series3#belly"
+  get "art/series3/cain_2" => "series3#cain_2"
+  get "art/series3/celebration_sacrifice" => "series3#celebration_sacrifice"
+  get "art/series3/father" => "series3#father"
+  get "art/series3/greed" => "series3#greed"
+  get "art/series3/im_in_love" => "series3#im_in_love"
+  get "art/series3/leap_of_faith" => "series3#leap_of_faith"
+  get "art/series3/offering" => "series3#offering"
+  get "art/series3/the_garden_of_good_and_evil" => "series3#the_garden_of_good_and_evil"
+
   get "art/series1" => "art#series1"
   get "art/series2" => "art#series2"
   get "art/series3" => "art#series3"
