@@ -30,18 +30,17 @@
 <h1 id="number"><span itemprop="telephone">760.689.9995</span></h1>
 </a>
  <ul class="seriesSlide">
-<!--<a href="bhj.html" title="Login form" rel="content-310-260" class="pirobox_gall1">-->
-   <a href="http://Gary.Llamido.com/Art/Series1/">
+  <%= link_to(art_series1_path)  do %>
        <li id="sr1">
        </li>
-   </a>
-   <a href="http://Gary.Llamido.com/Art/Series3/">
-       <li id="sr2">
-       </li>
-   </a>
-   <a href="http://Gary.Llamido.com/Art/Series2/">
+  <% end %>
+  <%= link_to(art_series3_path)  do %>
        <li id="sr3">
        </li>
-   </a>
+  <% end %>
+  <%= link_to(art_series2_path)  do %>
+       <li id="sr2">
+       </li>
+  <% end %>
  </ul>
 </nav>

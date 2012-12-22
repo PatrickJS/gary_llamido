@@ -1,4 +1,5 @@
 class ArtController < ApplicationController
+  layout "art_layout"
   def series1
   end
 

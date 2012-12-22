@@ -1,9 +1,20 @@
 GaryLlamidojava::Application.routes.draw do
-  get "art/series1"
-  get "art/series2"
-  get "art/series3"
+  get "art/series1" => "art#series1"
+  get "art/series2" => "art#series2"
+  get "art/series3" => "art#series3"
 
-  get "about" => "home/about"
+  get "art/series1/cain" => "series1#cain"
+  get "art/series1/in_god_we_trust" => "series1#in_god_we_trust"
+  get "art/series1/kingdom" => "series1#kingdom"
+  get "art/series1/perished_triumph" => "series1#perished_triumph"
+  get "art/series1/prodigal_son" => "series1#prodigal_son"
+  get "art/series1/rabbit" => "series1#rabbit"
+  get "art/series1/unveil" => "series1#alpha_omega"
+  get "art/series1/alpha_omega" => "series1#alpha_omega"
+  get "art/series1/babel" => "series1#babel"
+
+
+  get "about" => "home#about"
 
   root :to => 'home#index'
 
