@@ -1,2 +1,51 @@
-<h1>Series1#alpha_omega</h1>
-<p>Find me in app/views/series1/alpha_omega.html.erb</p>
+  <style type="text/css">
+  .detailsSeries {
+  background: #090909 url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/series1.png) no-repeat;
+  }
+  .detailsMain, .detailsImages li {
+  background: #090909 url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/AlphaOmega/detailsImages.png) no-repeat;
+  }
+  .detailsMain {
+    height:548px;
+  }
+  .detailsImages li{
+  margin-right:0px;
+  margin-top: 16px;
+  }
+  .detailsMaterial {
+  height:154px;
+  }
+  </style>
+      <div id="warp" itemscope itemtype="http://schema.org/Painting">
+      <a href="http://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/AlphaOmega/main.png"  class="pirobox_AlphaOmega" title="Alpha Omega"  itemprop="thumbnailUrl">
+        <div id="pc0" class="detailsMain">
+        </div>
+      </a>
+
+<%= link_to(art_series1_path)  do %>
+        <header class="detailsSeries" id="r1c2">
+            <h1><span itemprop="headline">
+            Alpha Omega
+            </span></h1>
+        </header>
+      <% end %>
+      <aside class="detailsMaterial">
+          24&#34;x24&#34;<br>
+          <span itemprop="dateCreated">
+          April 2011
+          </span>
+          <dl itemprop="keywords">
+              <dt>Material:</dt>
+                <dd>Wood</dd>
+                <dd>Encaustic</dd>
+                <dd>Dried Fish</dd>
+          </dl>
+      </aside>
+      <aside class="detailsImages">
+          <!--<ul id="detailsImages" class="imageSeries">-->
+          <ul>
+              <a href="https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/AlphaOmega/3.png" class="pirobox_AlphaOmega" title="Alpha Omega" itemprop="image">
+              <li id="pc3">
+              </li></a>
+          </ul>
+      </aside>

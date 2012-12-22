@@ -1,2 +1,46 @@
-<h1>Series1#cain</h1>
-<p>Find me in app/views/series1/cain.html.erb</p>
+  <style type="text/css">
+  .detailsSeries {
+  background: #090909 url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/series1.png) no-repeat;
+  }
+  .detailsMain, .detailsImages li {
+  background: #090909 url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Cain/detailsImages.png) no-repeat;
+  }
+  </style>
+      <div id="warp" itemscope itemtype="http://schema.org/Painting">
+      <a href="http://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Cain/main.png"  class="pirobox_Cain" title="Cain"  itemprop="image">
+        <div class="detailsMain" id="pc0">
+        </div>
+      </a>
+
+<%= link_to(art_series1_path)  do %>
+        <header class="detailsSeries" id="r3c2">
+            <h1><span itemprop="headline">
+            Cain
+            </span></h1>
+        </header>
+      <% end %>
+      <aside class="detailsMaterial">
+          24&#34;x48&#34;<br>
+          <span itemprop="dateCreated">
+          May 2011
+          </span>
+          <dl itemprop="keywords">
+              <dt>Material:</dt>
+                <dd>Wood</dd>
+                <dd>Encaustic</dd>
+                <dd>Bison Jaw Bone</dd>
+                <dd>Dried Locquat Fruit</dd>
+                <dd>Petroleum Varnish</dd>
+                <dd>Silver Tape</dd>
+          </dl>
+      </aside>
+      <aside class="detailsImages">
+          <ul>
+              <a href="https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Cain/4.png" class="pirobox_Cain" title="Cain" itemprop="image">
+              <li id="pc4">
+              </li></a>
+              <a href="https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Cain/3.png" class="pirobox_Cain" title="Cain" itemprop="image">
+              <li id="pc3">
+              </li></a>
+          </ul>
+      </aside>

@@ -1,2 +1,49 @@
-<h1>Series1#rabbit</h1>
-<p>Find me in app/views/series1/rabbit.html.erb</p>
+<style type="text/css">
+  .detailsSeries {
+  background: #090909 url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/series1.png) no-repeat;
+  }
+  .detailsMain, .detailsImages li {
+  background: #090909 url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Rabbit/detailsImages.png) no-repeat;
+  }
+  </style>
+      <div id="warp" itemscope itemtype="http://schema.org/Painting">
+      <a href="http://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Rabbit/main.png"  class="pirobox_Rabbit" title="Rabbit"  itemprop="image">
+        <div id="pc0" class="detailsMain">
+        </div>
+      </a>
+
+<%= link_to(art_series1_path)  do %>
+        <header class="detailsSeries" id="r3c1">
+            <h1><span itemprop="headline">
+            Rabbit
+            </span></h1>
+        </header>
+      <% end %>
+      <aside class="detailsMaterial">
+          24&#34;x24&#34;<br>
+          <span itemprop="dateCreated">
+          April 2011
+          </span>
+          <dl itemprop="keywords">
+              <dt>Material:</dt>
+                <dd>Wood</dd>
+                <dd>Encaustic</dd>
+                <dd>Petroleum Varnish</dd>
+                <dd>Magnolia Seed Pods</dd>
+                <dd>Silver Tape</dd>
+          </dl>
+      </aside>
+      <aside class="detailsImages">
+          <!--<ul id="detailsImages" class="imageSeries">-->
+          <ul>
+              <a href="https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Rabbit/1.png" class="pirobox_Rabbit" title="Rabbit" itemprop="image">
+              <li id="pc1">
+              </li></a>
+              <a href="https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Rabbit/2.png" class="pirobox_Rabbit" title="Rabbit" itemprop="image">
+              <li id="pc2">
+              </li></a>
+              <a href="https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/Art/Series1/Rabbit/3.png" class="pirobox_Rabbit" title="Rabbit" itemprop="image">
+              <li id="pc3">
+              </li></a>
+          </ul>
+      </aside>

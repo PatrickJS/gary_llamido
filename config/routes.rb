@@ -9,7 +9,7 @@ GaryLlamidojava::Application.routes.draw do
   get "art/series1/perished_triumph" => "series1#perished_triumph"
   get "art/series1/prodigal_son" => "series1#prodigal_son"
   get "art/series1/rabbit" => "series1#rabbit"
-  get "art/series1/unveil" => "series1#alpha_omega"
+  get "art/series1/unveil" => "series1#unveil"
   get "art/series1/alpha_omega" => "series1#alpha_omega"
   get "art/series1/babel" => "series1#babel"
 
