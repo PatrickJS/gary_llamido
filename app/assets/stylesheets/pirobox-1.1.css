@@ -35,7 +35,7 @@ a:hover.piro_next{background:url(https://s3.amazonaws.com/llamido.com/images/lig
 .piro_close:hover{background: transparent url(https://s3.amazonaws.com/llamido.com/images/lightbox/close_h.png) no-repeat center center;}
 
 .piro_prev_fake{right:78px;outline:none; text-indent:-999em; display:none; margin:0;background: url(https://s3.amazonaws.com/llamido.com/images/lightbox/pirobox/prev_fake.png) center  no-repeat; border:none; cursor:auto;z-index:150020}
-a.piro_prev{right:78px; text-indent:-999em; outline:none;display:block;margin:0;background: url(https://s3.amazonaws.com/llamido.com/images/lightbox/pirobox/prev.png) center  no-repeat;border:none; cursor:pointer; z-index:150024}
+a.piro_prev{right:78px; text-indent:-999em; outline:none;display:block;margin:0;background: url(https://s3.amazonaws.com/llamido.com/images/lightbox/prev.png) center  no-repeat;border:none; cursor:pointer; z-index:150024}
 a:hover.piro_prev{background:url(https://s3.amazonaws.com/llamido.com/images/lightbox/prev_fake.png) center  no-repeat;}
 .zoomIn{position:absolute; height:32px; width:32px; top:20px; right:20px; text-indent:-999em; background:url(https://s3.amazonaws.com/llamido.com/images/enlarge.png) no-repeat;z-index:1500192;}
 .zoomOut{position:absolute; height:32px; width:32px; top:20px; right:20px; text-indent:-999em; background:url(https://s3.amazonaws.com/llamido.com/images/dislarge.png) no-repeat;z-index:1500193;}
