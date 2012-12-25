@@ -3,9 +3,10 @@ ruby '2.0.0'
 
 gem 'rails', '3.2.9'
 gem 'jquery-rails'
-gem 'bootstrap-sass'
+# gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '3.0.1'
 # gem 'turbolinks'
+gem 'unicorn'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -33,5 +34,6 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
-#  gem 'rack-google-analytics'
+  # gem 'thin'
+  #gem 'rack-google-analytics'
 end
