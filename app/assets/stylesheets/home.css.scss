@@ -52,7 +52,7 @@ html {
     overflow: auto;
 }
 body {
-  background: #090909 url('https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/black-Linen_%402X.png') repeat;
+  background: #090909 url('https://s3.amazonaws.com/llamido.com/images/black-Linen_%402X.png') repeat;
   color: #FFF;
   margin: 0;
   padding: 0;
@@ -114,7 +114,7 @@ body {
 /* End Borders */
 #header {
   display:block;
-  background: url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/header.png) no-repeat 0 -73px;
+  background: url(https://s3.amazonaws.com/llamido.com/images/header.png) no-repeat 0 -73px;
   height: 73px;
   width: 724px;
   margin-bottom: 20px;
@@ -139,7 +139,7 @@ footer {
 /* End main */
 
 #resume {
-  background-image: url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/resume.png);
+  background-image: url(https://s3.amazonaws.com/llamido.com/images/resume.png);
   background-position: -1px -1px;
   background-repeat: no-repeat;
   background-color: #090909;
@@ -159,7 +159,7 @@ footer {
   margin-left: 14px;
 }
 #number {
-  background:url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/bg.png);
+  background:url(https://s3.amazonaws.com/llamido.com/images/bg.png);
   font: x-large/2em 'futura-pt' , Arial, sans-serif;
   background-repeat:no-repeat;
   background-color:#090909;
@@ -183,7 +183,7 @@ h1.number:hover {
   margin-top: 10px;
 }
 .seriesSlide li {
-  background:url(https://s3-us-west-1.amazonaws.com/gdi2290/Llamido/images/slide.png);
+  background:url(https://s3.amazonaws.com/llamido.com/images/slide.png);
   background-color: #090909;
 }
 
