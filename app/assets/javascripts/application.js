@@ -13,3 +13,27 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
+    });
+}
+
+// Usage:
+
+preload([
+    'https://s3.amazonaws.com/llamido.com/images/resume.png',
+    'https://s3.amazonaws.com/llamido.com/images/header.png',
+    'https://s3.amazonaws.com/llamido.com/images/slide.png',
+    'https://s3.amazonaws.com/llamido.com/images/Art/series1.png',
+    'https://s3.amazonaws.com/llamido.com/images/Art/series2.png',
+    'https://s3.amazonaws.com/llamido.com/images/Art/series3.png',
+    'https://s3.amazonaws.com/llamido.com/images/black-Linen_%402X.png',
+    'https://s3.amazonaws.com/llamido.com/images/wip2.png',
+    'https://s3.amazonaws.com/llamido.com/images/wip.png'
+]);
