@@ -6,20 +6,16 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-<%= render "layouts/header" %>
+<%= render "layouts/meta" %>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
 
-  <!-- Red border -->
-  <div id="left"></div><div id="right"></div><div id="top"></div><div id="bottom"></div>
-  <!-- End Red Border -->
-  <section  itemscope itemtype="http://schema.org/Person">
-      <%= link_to(root_path)  do %>
-        <header id="header">
-            <h1 itemprop="email">Gary@Llamido.com</h1>
-        </header>
-      <% end %>
+<%= render 'layouts/border' %>
+
+<%= render 'layouts/header' %>
+
 <%= yield %>
+
   <%= render "layouts/footer" %>
   </section>
 </body>
